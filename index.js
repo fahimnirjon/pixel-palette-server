@@ -119,5 +119,5 @@ app.get("/", (req, res) => {
   res.send("This is Arts & Crafts website Named Pixel Palette");
 });
 app.listen(port, () => {
-  console.log(`This port open in http://localhost:${port}`);
+  console.log(`Pixel Palette open in http://localhost:${port}`);
 });
