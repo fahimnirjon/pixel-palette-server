@@ -116,7 +116,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("This is Arts & Crafts website Named Pixel Palette");
+  res.send("This is an Arts & Crafts website Named Pixel Palette");
 });
 app.listen(port, () => {
   console.log(`Pixel Palette open in http://localhost:${port}`);
