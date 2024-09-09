@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 
 app.use(express.json());
 const corsConfig = {
-  origin: ["http://localhost:5173", "https://pixel-palette.netlify.app/"],
+  origin: ["http://localhost:5173", "https://pixel-palette.netlify.app"],
   credentials: true,
 };
 app.use(cors(corsConfig));
